@@ -40,7 +40,7 @@ params:
           url: "https://github.com/lavaicer"
 
     editPost:
-        URL: "https://github.com/lavaicer/blog/content"
+        URL: "https://github.com/lavaicer/blog/tree/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
