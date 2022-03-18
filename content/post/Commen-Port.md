@@ -3,7 +3,7 @@ title: "Commen Port"
 date: 2022-03-18T17:25:40+08:00
 draft: true
 weight: 9
-categories: ["信息收集"]
+categories: ["计算机网络"]
 tags: ["Port", "计算机网络"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
