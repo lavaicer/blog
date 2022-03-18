@@ -1,7 +1,7 @@
 ---
 title: "HTTP Status Code"
 date: 2022-03-18T14:41:12+08:00
-draft: true
+draft: false
 weight: 9
 categories: ["计算机网络"]
 tags: ["状态码", "计算机网络"]
