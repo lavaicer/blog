@@ -1,7 +1,7 @@
 ---
 title: "Git Note"
 date: 2022-03-19T13:26:53+08:00
-draft: true
+draft: false
 weight: 9
 categories: ["Git"]
 tags: ["Git"]

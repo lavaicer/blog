@@ -1,7 +1,7 @@
 ---
 title: "Ncat Note"
 date: 2022-03-19T13:18:56+08:00
-draft: true
+draft: false
 weight: 9
 categories: ["安全工具"]
 tags: ["安全工具", "Ncat"]
