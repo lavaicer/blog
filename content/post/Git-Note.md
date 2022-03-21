@@ -127,10 +127,12 @@ git remote -v
 
 ### git diff
 
+```bash
 git diff <$id1> <$id2>  比较两次提交之间的差异
 git diff `<branch1>`..`<branch2>`  在两个分支之间比较
 git diff --staged  比较暂存区和版本库差异
 
+```
 ### git checkout tag/id/branch
 
 可以撤销还没add进暂存区的文件
@@ -138,35 +140,53 @@ git diff --staged  比较暂存区和版本库差异
 ### git stash
 
 代码还未commit之前暂时切换到另外的分支
+
+```bash
 git stash list 暂存区记录
 git stash apply 还原
 git stash drop 删除这次stash记录
 git stash pop 还原并删除
 git stash clear 清空
 
+```
+
 ### merge&rebase
 
+```bash
 git checkout master
 git merge featureA
+
+```
 等价于
+
+```bash
 git checkout master
 git rebase featureA
 rebase 会按时序合并
 
+```
 ---
 
 ## git 分支合作
 
 查看本地分支列表
-git branch
+`git branch`
+
 查看远程分支列表
-git branch -r
+`git branch -r`
+
 删除本地分支
-git branch -d develop
-git branch -D develop (强制删除)
+`git branch -d develop`
+`git branch -D develop (强制删除)`
+
 删除远程分支
-git push origin :develop
+`git push origin :develop`
+
 如果远程分支有个 develop ，而本地没有，你想把远程的 develop 分支迁到本地：
-git checkout develop origin/develop
+
+`git checkout develop origin/develop`
+
 同样的把远程分支迁到本地顺便切换到该分支：
-git checkout -b develop origin/develop
+
+`git checkout -b develop origin/develop`
+
