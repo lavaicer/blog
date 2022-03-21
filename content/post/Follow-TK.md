@@ -1,7 +1,7 @@
 ---
 title: "Follow TK"
 date: 2022-03-21T22:07:20+08:00
-draft: true
+draft: false
 weight: 9
 categories: ["搬运工"]
 tags: ["学习思维", "搬运"]
