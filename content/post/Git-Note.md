@@ -8,13 +8,15 @@ tags: ["Git"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
 ---
+
 # Note OF Git
 
 ## 始
 
-- 安装git
+- 安装 git
 
   搜索引擎
+
 - 配置文件
 
   ```bash
@@ -23,6 +25,7 @@ author: ["lavaicer"]
   .git/config 针对当前仓库的配置文件
   上面三个，越下面级别越高
   ```
+
 - 配置修改
 
   ```bash
@@ -44,6 +47,7 @@ author: ["lavaicer"]
   git config --global color.ui true
 
   ```
+
 - 4.帮助手册
 
   ```bash
@@ -59,33 +63,33 @@ author: ["lavaicer"]
 ```bash
 - 1.git init
     初始化git仓库
-  
+
 - 2.git status
     查看git仓库的状态
-  
+
 - 3.git add
     缓存添加文件（夹）到git仓库
-  
+
 - 4.git rm -cached
     移除添加的缓存
-  
+
 - 5.git commit -m 'something'
     commit 代表提交
     -m 表示提交附属信息，对此次提交的描述
-  
+
 - 6.git log
     查看提交日志
-  
+
 - 7.git branch
     查看当前分支	git branch
     新建分支a	git branch a
     新建a分支并切换到a分支	git checkout -b a
 	删除无用的a分支 git branch -d a
 	若a还没合并到main，则上一条会失败，-D可强制删除	git branch -D
-  
+
 - 8.git merge
     要先切换到main分支，然后git merge a就可将a合并到main分支
-  
+
 - 11.git tag
     添加标签，方便切换和查找
     查看标签 git tag
@@ -99,9 +103,9 @@ author: ["lavaicer"]
 ### SSH
 
 ```bash
-生成rsa秘钥 ssh-keygen -t rsa 
+生成rsa秘钥 ssh-keygen -t rsa
 \ 生成的文件在 ~/.ssh 目录下，将pub中的内容复制到GitHub上。
-\ 设置 >> SSh >> new SSH key 
+\ 设置 >> SSh >> new SSH key
 \ 输入ssh -T git@github.com 进行测试是否添加成功
 ```
 
@@ -133,13 +137,14 @@ git diff `<branch1>`..`<branch2>`  在两个分支之间比较
 git diff --staged  比较暂存区和版本库差异
 
 ```
+
 ### git checkout tag/id/branch
 
-可以撤销还没add进暂存区的文件
+可以撤销还没 add 进暂存区的文件
 
 ### git stash
 
-代码还未commit之前暂时切换到另外的分支
+代码还未 commit 之前暂时切换到另外的分支
 
 ```bash
 git stash list 暂存区记录
@@ -157,6 +162,7 @@ git checkout master
 git merge featureA
 
 ```
+
 等价于
 
 ```bash
@@ -165,6 +171,7 @@ git rebase featureA
 rebase 会按时序合并
 
 ```
+
 ---
 
 ## git 分支合作
@@ -190,3 +197,8 @@ rebase 会按时序合并
 
 `git checkout -b develop origin/develop`
 
+---
+
+**附**：
+[git 常用指令](https://chiemon.github.io/2019/02/19/Git-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html)
+[git workflow 工作流程](https://chiemon.github.io/2019/03/02/Git-Workflow.html)
