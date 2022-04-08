@@ -3,7 +3,7 @@ title: "Iptables"
 date: 2022-04-05T15:33:54+08:00
 draft: false
 weight: 9
-categories: ["WAF"]
+categories: ["linux"]
 tags: ["WAF"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
@@ -107,11 +107,9 @@ iptables [-t 表名] 选项 [链名] [条件] [-j 控制类型]
 - 通用匹配
   可直接使用，不依赖于其他条件或扩展
   包括网络协议、IP 地址、网络接口等条件
-
 - 隐含匹配
   要求以特定的协议匹配作为前提
   包括端口、TCP 标记、ICMP 类型等条件
-
 - 显示匹配
   要求以 “-m 扩展模块” 的形式明确指出类型
   包括多端口、MAC 地址、IP 范围、数据包状态等条件
@@ -136,4 +134,3 @@ MAC 地址匹配： -m mac--mac-source MAC 地址
 状态匹配： -m state--state 连接状态
 
 ![](https://raw.githubusercontent.com/lavaicer/Img/main/202204061339493.png)
-

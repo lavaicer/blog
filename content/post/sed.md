@@ -3,7 +3,7 @@ title: "Sed"
 date: 2022-04-08T17:39:52+08:00
 draft: false
 weight: 9
-categories: ["搬运工"]
+categories: ["搬运工", "linux"]
 tags: ["sed", "linux"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
