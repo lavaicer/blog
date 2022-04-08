@@ -9,8 +9,6 @@ author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
 ---
 
-# Note OF Git
-
 ## 始
 
 - 安装 git
