@@ -193,6 +193,12 @@ author: ["lavaicer"]
 
 上面命令将服务器回应保存成文件，文件名为 bar.html。
 
+## --path-as-is
+
+--path-as-is 不要合并 `/../`、`./` 队列, 默认会合并
+
+`curl --path-as-is https://example.com/../../etc/passwd`
+
 ## -s
 
 -s 参数将不输出错误和进度信息。
@@ -262,9 +268,3 @@ curl 能够识别 URL 里面的用户名和密码。
 `curl -X POST https://www.example.com`
 
 上面命令对https://www.example.com发出 POST 请求。
-
-## --path-as-is
-
---path-as-is 不要合并 `/../`、`./` 队列, 默认会合并
-
-`curl --path-as-is https://example.com/../../etc/passwd`
