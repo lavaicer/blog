@@ -4,7 +4,7 @@ date: 2022-04-05T15:33:54+08:00
 draft: false
 weight: 9
 categories: ["linux"]
-tags: ["WAF"]
+tags: ["WAF", "command"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
 ---
