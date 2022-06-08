@@ -19,7 +19,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "lavaicerの博客"
-    keywords: [Blog, lavaicer, security]
+    keywords: [Blog, lavaicer, security,linux]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
 

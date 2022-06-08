@@ -3,17 +3,13 @@ title: "Note HTML"
 date: 2022-05-06T10:53:34+08:00
 draft: false
 weight: 9
-categories: ["Web"]
+categories: ["HTML"]
 tags: ["Web", "HTML"]
 author: ["lavaicer"]
 # author: ["Me", "You"] # multiple authors
 ---
 
----
-
-超文本标记语言，Web 基础
-
----
+超文本标记语言 HTML 是 Web 的基础，记录了常用标签。
 
 ## `<!-- -->`
 
