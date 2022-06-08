@@ -1,7 +1,7 @@
 ---
 title: "Note Vue"
 date: 2022-04-18T09:18:07+08:00
-draft: true
+draft: false
 weight: 9
 categories: ["Vue"]
 tags: ["Vue"]
